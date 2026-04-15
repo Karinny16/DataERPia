@@ -1,0 +1,9 @@
+.Container {
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: row;
+  width: 65vw;
+  height: 75vh;
+  border-radius: 20px;
+  box-shadow: 40px 40px 10px #00000040;
+}
