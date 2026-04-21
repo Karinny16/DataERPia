@@ -5,6 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Navbar from "./Componentes/Navbar";
 
 
 import HomePrinc from "./Home/HomePrinc";
@@ -12,6 +13,7 @@ import HomePrinc from "./Home/HomePrinc";
 function Rotas() {
   return (
     <Router>
+       <Navbar />
       <Routes>
         <Route path="/HomePrinc" element={<HomePrinc />} />
          </Routes>
