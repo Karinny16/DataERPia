@@ -1,14 +1,18 @@
 // import { useState } from "react"
 import "./HomePrinc.css";
 import Button from "../Componentes/Button";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
+import { LuBrain } from "react-icons/lu";
+
 function HomePrinc() {
   return (
     <>
       <motion.div className="Container"
-      initial={{width:0}}
-      animate={{width:"100%"}}
-      exit={{x:window.innerWidth, transition:{duration:0.4}}}
+
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+
       >
         <div className="texto1Central">
           <h1>
@@ -25,7 +29,19 @@ function HomePrinc() {
         </div>
       </motion.div>
 
-      <div className="Container2"></div>
+      <div className="Container2">
+        <div className="texto2Central">
+          <h1>Transforme informações em deciões estratégicas
+          </h1>
+
+        <div className="Icons">
+          <div className="Brain">          <LuBrain size={50} />
+          </div>
+
+        </div>
+        </div>
+
+      </div>
     </>
   );
 }
