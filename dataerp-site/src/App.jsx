@@ -15,7 +15,7 @@ function Rotas() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/HomePrinc" element={<HomePrinc />} />
+        <Route path="/" element={<HomePrinc />} />
         <Route path="/HomeAbout" element={<HomeAbout />} />
       </Routes>
     </Router>

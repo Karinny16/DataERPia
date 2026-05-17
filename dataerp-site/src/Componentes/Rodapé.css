@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.section_footer {
+    padding: 4rem 4rem;
+}
+
+.rodape {
+    background-color: #1B3C53;
+}
+
+.id_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.id_footer-links_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.id_footer-links-div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+.id_footer-links-div h4 {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+
+}
+
+.id_footer-links-div p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+
+}
+
+.id_footer-div-footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.id_footer-footer_links_term {
+    display: flex;
+    flex-direction: row;
+}
+
+.id_footer-footer_links_term p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+hr {
+    color: white;
+    width: 100%;
+
+
+}
+
+.id_footer-div-footer-copyright {
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+ h1{
+    font-family: "Prata", serif;
+  font-weight: 400;
+  color: white;
+  font-size: 50px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+
+.id_footer-div-footer-copyright p{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  color: white;
+  font-size: 14px;
+}
+
+.id_footer-links-div h4 {
+    font-family: "Prata", serif;
+  font-weight: 400;
+  color: white;
+  font-size: 50px;
+  line-height: 0.9;
+}

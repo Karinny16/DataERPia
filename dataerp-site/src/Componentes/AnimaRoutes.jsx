@@ -14,7 +14,7 @@ import { AnimatePresence } from "framer-motion";
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/HomePrinc" element={<HomePrinc />} />
+        <Route path="/" element={<HomePrinc />} />
         <Route path="/HomeAbout" element={<HomeAbout />} />
       </Routes>
       </AnimatePresence>
